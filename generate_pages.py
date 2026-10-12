@@ -339,6 +339,7 @@ PAGES = [
         "paras": [
             "카리셋 자살차량 특수청소는 극단적 선택이 발생한 차량의 시트, 바닥, 트림, 공조 라인까지 스며든 오염을 처리합니다. 일반 세차나 견인이 거부되는 경우에도 현장 출동부터 진행합니다.",
             "자살차량 견인 후 특수청소, 차량 악취제거, 상속차량 보관, 고인명의 폐차 말소 중 필요한 다음 단계를 상황에 맞게 안내합니다.",
+            "카리셋은 현장 사진으로 오염 범위를 가늠한 뒤 일반 견인이 가능한지부터 안내합니다. 작업 후에는 차량 작업후기에 지역·차종만 남기고 공개할 수 있습니다.",
         ],
         "bullets": [
             "자살차량 특수청소 · 오염 범위 확인",
@@ -561,7 +562,7 @@ TEMPLATE = """<!DOCTYPE html>
   <meta name="twitter:image" content="https://carreset.kr/images/{og_image}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700;900&display=swap">
-  <link rel="stylesheet" href="../css/style.css?v=14">
+  <link rel="stylesheet" href="../css/style.css?v=17">
   <link rel="icon" href="../images/favicon.ico">
   <script type="application/ld+json">
   {json_ld}
@@ -600,8 +601,8 @@ TEMPLATE = """<!DOCTYPE html>
     </article>
   </div>
   <div data-layout="footer"></div>
-  <script src="../js/layout.js?v=13"></script>
-  <script src="../js/main.js"></script>
+  <script src="../js/layout.js?v=17"></script>
+  <script src="../js/main.js?v=17"></script>
 </body>
 </html>
 """
@@ -622,6 +623,7 @@ RELATED_DEFAULT = [
     ("유품정리", "keepsake/index.html"),
     ("고독사 특수청소", "cleaning/lonely.html"),
     ("특수청소", "cleaning/index.html"),
+    ("차량 작업후기", "reviews/index.html"),
 ]
 
 RELATED_BY_PAGE = {
@@ -633,6 +635,7 @@ RELATED_BY_PAGE = {
         ("상속차량 보관", "vehicle/storage.html"),
         ("고인명의 폐차 말소", "vehicle/scrap.html"),
         ("유품정리", "keepsake/index.html"),
+        ("차량 작업후기", "reviews/index.html"),
     ],
     "vehicle/lonely.html": [
         ("고독사 차량", "vehicle/lonely.html"),
@@ -641,12 +644,14 @@ RELATED_BY_PAGE = {
         ("고독사 특수청소", "cleaning/lonely.html"),
         ("고독사 유품정리", "keepsake/lonely.html"),
         ("상속차량 보관", "vehicle/storage.html"),
+        ("차량 작업후기", "reviews/index.html"),
     ],
     "vehicle/charcoal.html": [
         ("번개탄 탈취", "vehicle/charcoal.html"),
         ("차량 악취제거", "vehicle/odor.html"),
         ("차량 실내 복원", "vehicle/restore.html"),
         ("자살차량 특수청소", "vehicle/suicide.html"),
+        ("차량 작업후기", "reviews/index.html"),
     ],
     "keepsake/index.html": [
         ("고인유품정리", "keepsake/deceased.html"),
@@ -774,8 +779,8 @@ SEO = {
         "og_image": "schema-vehicle.jpg",
     },
     "vehicle/suicide.html": {
-        "h1": "자살차량 특수청소",
-        "seo_title": "자살차량 특수청소 · 견인 · 악취제거 | 카리셋",
+        "h1": "카리셋 자살차량 특수청소",
+        "seo_title": "카리셋 자살차량 특수청소 · 견인 · 악취제거",
         "seo_desc": "카리셋 자살차량 특수청소. 현장 출동, 견인, 오염제거, 악취탈취, 보관, 폐차말소까지 전국 24시간 상담합니다. 010-4393-2414",
         "keywords": "자살차량 특수청소, 자살차량청소, 자살차량 견인, 차량 특수청소, 카리셋",
         "seo_line": "카리셋 자살차량 특수청소(자살차량청소)는 일반 세차로 해결되지 않는 내부 오염을 제거하고, 자살차량 견인부터 보관·폐차 말소까지 이어서 안내합니다.",

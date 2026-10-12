@@ -262,7 +262,8 @@ body[data-section="cleaning"] .page-hero {
   background-image: url("../images/schema-cleaning.jpg");
 }
 
-body[data-section="vehicle"] .page-hero {
+body[data-section="vehicle"] .page-hero,
+body[data-section="reviews"] .page-hero {
   background-image: url("../images/schema-vehicle.jpg");
 }
 
@@ -784,6 +785,125 @@ body[data-section="vehicle"] .page-hero {
   height: 100%;
   min-height: 420px;
   object-fit: cover;
+}
+
+.review-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.review-filters button {
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  background: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.review-filters button.is-active {
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+}
+
+.review-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.review-card {
+  display: block;
+  border: 1px solid var(--line);
+  background: #fff;
+  padding-bottom: 18px;
+}
+
+.review-card:hover {
+  border-color: var(--ink);
+}
+
+.review-media,
+.review-hero {
+  overflow: hidden;
+  background: #d9d4cd;
+}
+
+.review-media {
+  aspect-ratio: 16 / 9;
+  margin-bottom: 14px;
+}
+
+.review-media img,
+.review-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.review-hero {
+  aspect-ratio: 16 / 9;
+  margin-bottom: 24px;
+}
+
+.review-card h2 {
+  font-size: 18px;
+  line-height: 1.4;
+  padding: 0 16px;
+  margin-bottom: 8px;
+}
+
+.review-card p {
+  padding: 0 16px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.review-kicker {
+  padding: 0 16px;
+  margin-bottom: 6px;
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+}
+
+.page-content > .review-kicker {
+  padding: 0;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.review-meta {
+  display: block;
+  padding: 10px 16px 0;
+  font-size: 13px;
+  color: #888;
+}
+
+.review-card.is-hidden {
+  display: none;
+}
+
+.home-reviews {
+  padding: 88px 0 40px;
+}
+
+.home-reviews .section-intro {
+  padding: 0 0 28px;
+}
+
+.review-more {
+  margin-top: 28px;
+  text-align: center;
+}
+
+.review-more .btn-ghost {
+  border-color: var(--ink);
+  color: var(--ink);
 }
 
 .help-band,
@@ -1499,6 +1619,10 @@ body[data-section="vehicle"] .page-hero {
     display: block;
   }
 
+  .review-grid {
+    grid-template-columns: 1fr;
+  }
+
   .section-intro,
   .process,
   .faq,
@@ -1506,7 +1630,8 @@ body[data-section="vehicle"] .page-hero {
   .split-section,
   .company,
   .help-band,
-  .cover-band {
+  .cover-band,
+  .home-reviews {
     padding: 64px 0;
   }
 }

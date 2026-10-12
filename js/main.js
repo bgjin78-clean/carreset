@@ -142,4 +142,41 @@
         }
       });
   });
+
+  const filters = document.querySelector(".review-filters");
+  const cards = Array.from(document.querySelectorAll(".review-card[data-type]"));
+
+  function applyReviewFilter(type) {
+    const next = type || "all";
+    filters?.querySelectorAll("button").forEach((button) => {
+      button.classList.toggle("is-active", button.getAttribute("data-filter") === next);
+    });
+    cards.forEach((card) => {
+      const match = next === "all" || card.getAttribute("data-type") === next;
+      card.classList.toggle("is-hidden", !match);
+    });
+  }
+
+  if (filters && cards.length) {
+    filters.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-filter]");
+      if (!button) return;
+      const type = button.getAttribute("data-filter") || "all";
+      applyReviewFilter(type);
+      const hash = type === "all" ? "" : "#" + type;
+      if (window.location.hash !== hash) {
+        history.replaceState(null, "", window.location.pathname + window.location.search + hash);
+      }
+    });
+
+    const fromHash = (window.location.hash || "").replace("#", "");
+    const allowed = Array.from(filters.querySelectorAll("button")).map((button) =>
+      button.getAttribute("data-filter")
+    );
+    applyReviewFilter(allowed.includes(fromHash) ? fromHash : "all");
+    window.addEventListener("hashchange", () => {
+      const next = (window.location.hash || "").replace("#", "");
+      applyReviewFilter(allowed.includes(next) ? next : "all");
+    });
+  }
 })();

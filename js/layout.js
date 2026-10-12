@@ -101,6 +101,27 @@
       ],
     },
     {
+      id: "reviews",
+      label: "작업후기",
+      href: "reviews/index.html",
+      groups: [
+        {
+          title: "차량 작업후기",
+          items: [
+            { label: "전체 보기", href: "reviews/index.html" },
+            { label: "자살차량 특수청소", href: "reviews/index.html#suicide" },
+            { label: "고독사 차량", href: "reviews/index.html#lonely" },
+            { label: "번개탄 탈취", href: "reviews/index.html#charcoal" },
+            { label: "보관 · 말소", href: "reviews/index.html#storage" },
+          ],
+        },
+        {
+          title: "접수",
+          items: [{ label: "후기 등록 문의", href: "index.html#inquiry" }],
+        },
+      ],
+    },
+    {
       id: "inquiry",
       label: "상담문의",
       href: "index.html#inquiry",
@@ -196,6 +217,7 @@
             © 2026 CARRESET. All rights reserved.
           </p>
           <nav class="footer-keywords" aria-label="주요 키워드">
+            <a href="${url("reviews/index.html")}">차량 작업후기</a>
             <a href="${url("vehicle/suicide.html")}">자살차량 특수청소</a>
             <a href="${url("vehicle/suicide.html")}">자살차량청소</a>
             <a href="${url("vehicle/lonely.html")}">고독사 차량 특수청소</a>
