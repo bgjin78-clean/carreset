@@ -562,7 +562,7 @@ TEMPLATE = """<!DOCTYPE html>
   <meta name="twitter:image" content="https://www.special.carreset.kr/images/{og_image}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700;900&display=swap">
-  <link rel="stylesheet" href="../css/style.css?v=19">
+  <link rel="stylesheet" href="../css/style.css?v=20">
   <link rel="icon" href="../images/favicon.ico">
   <script type="application/ld+json">
   {json_ld}
@@ -601,8 +601,8 @@ TEMPLATE = """<!DOCTYPE html>
     </article>
   </div>
   <div data-layout="footer"></div>
-  <script src="../js/layout.js?v=19"></script>
-  <script src="../js/main.js?v=19"></script>
+  <script src="../js/layout.js?v=20"></script>
+  <script src="../js/main.js?v=20"></script>
 </body>
 </html>
 """
@@ -860,12 +860,14 @@ SEO = {
 
 
 def related_html(page: str) -> str:
-    items = RELATED_BY_PAGE.get(page, RELATED_DEFAULT)
-    links = [
-        f'<a href="../{href}">{label}</a>'
-        for label, href in items
-        if href != page
-    ]
+    items = list(RELATED_BY_PAGE.get(page, RELATED_DEFAULT))
+    items.append(("카리셋 본 사이트", "https://carreset.kr/"))
+    links = []
+    for label, href in items:
+        if href == page:
+            continue
+        target = href if href.startswith("http") else "../" + href
+        links.append(f'<a href="{target}">{label}</a>')
     return "\n        ".join(links)
 
 
