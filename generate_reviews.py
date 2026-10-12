@@ -207,6 +207,7 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
       <nav class="related-keywords" aria-label="다른 작업후기">
         <h3>다른 차량 작업후기</h3>
         {related}
+        <a href="https://carreset.kr/">카리셋 본 사이트</a>
       </nav>
       <div class="page-cta">
         <p>비슷한 차량 작업이 필요하시면 카리셋 전국 24시간 상담 010-4393-2414로 연락 주세요.</p>

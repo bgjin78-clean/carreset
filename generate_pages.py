@@ -860,12 +860,14 @@ SEO = {
 
 
 def related_html(page: str) -> str:
-    items = RELATED_BY_PAGE.get(page, RELATED_DEFAULT)
-    links = [
-        f'<a href="../{href}">{label}</a>'
-        for label, href in items
-        if href != page
-    ]
+    items = list(RELATED_BY_PAGE.get(page, RELATED_DEFAULT))
+    items.append(("카리셋 본 사이트", "https://carreset.kr/"))
+    links = []
+    for label, href in items:
+        if href == page:
+            continue
+        target = href if href.startswith("http") else "../" + href
+        links.append(f'<a href="{target}">{label}</a>')
     return "\n        ".join(links)
 
 
