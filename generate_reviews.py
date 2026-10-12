@@ -113,7 +113,7 @@ LIST_TEMPLATE = """<!DOCTYPE html>
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700;900&display=swap">
-  <link rel="stylesheet" href="../css/style.css?v=18">
+  <link rel="stylesheet" href="../css/style.css?v=19">
   <link rel="icon" href="../images/favicon.ico">
   <script type="application/ld+json">
   {list_schema}
@@ -151,8 +151,8 @@ LIST_TEMPLATE = """<!DOCTYPE html>
     </article>
   </div>
   <div data-layout="footer"></div>
-  <script src="../js/layout.js?v=18"></script>
-  <script src="../js/main.js?v=18"></script>
+  <script src="../js/layout.js?v=19"></script>
+  <script src="../js/main.js?v=19"></script>
 </body>
 </html>
 """
@@ -178,7 +178,7 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700;900&display=swap">
-  <link rel="stylesheet" href="../css/style.css?v=18">
+  <link rel="stylesheet" href="../css/style.css?v=19">
   <link rel="icon" href="../images/favicon.ico">
   <script type="application/ld+json">
   {json_ld}
@@ -207,7 +207,6 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
       <nav class="related-keywords" aria-label="다른 작업후기">
         <h3>다른 차량 작업후기</h3>
         {related}
-        <a href="https://carreset.kr/">카리셋 본 사이트</a>
       </nav>
       <div class="page-cta">
         <p>비슷한 차량 작업이 필요하시면 카리셋 전국 24시간 상담 010-4393-2414로 연락 주세요.</p>
@@ -220,8 +219,8 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
     </article>
   </div>
   <div data-layout="footer"></div>
-  <script src="../js/layout.js?v=18"></script>
-  <script src="../js/main.js?v=18"></script>
+  <script src="../js/layout.js?v=19"></script>
+  <script src="../js/main.js?v=19"></script>
 </body>
 </html>
 """
