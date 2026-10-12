@@ -214,6 +214,7 @@
             상호 : 카리셋 / 대표 : 입력 예정 / 사업자등록번호 : 입력 예정<br>
             주소 : 입력 예정 / 이메일 : 입력 예정 / 개인정보보호책임자 : 입력 예정<br>
             대표번호 : ${TEL_VIEW}<br>
+            본 사이트는 카리셋 특수청소 전용 페이지입니다. <a href="https://carreset.kr/">카리셋 본 사이트</a><br>
             © 2026 CARRESET. All rights reserved.
           </p>
           <nav class="footer-keywords" aria-label="주요 키워드">

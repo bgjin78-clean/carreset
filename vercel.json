@@ -1,5 +1,14 @@
 {
   "cleanUrls": false,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "special.carreset.kr" }],
+      "destination": "https://www.special.carreset.kr/:path*",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/sitemap.xml",

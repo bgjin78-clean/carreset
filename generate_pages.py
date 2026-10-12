@@ -546,23 +546,23 @@ TEMPLATE = """<!DOCTYPE html>
   <meta name="keywords" content="{keywords}">
   <meta name="author" content="카리셋 CARRESET">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://carreset.kr/{page}">
+  <link rel="canonical" href="https://www.special.carreset.kr/{page}">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ko_KR">
-  <meta property="og:site_name" content="카리셋 CARRESET">
+  <meta property="og:site_name" content="카리셋 특수">
   <meta property="og:title" content="{seo_title}">
   <meta property="og:description" content="{seo_desc}">
-  <meta property="og:url" content="https://carreset.kr/{page}">
-  <meta property="og:image" content="https://carreset.kr/images/{og_image}">
+  <meta property="og:url" content="https://www.special.carreset.kr/{page}">
+  <meta property="og:image" content="https://www.special.carreset.kr/images/{og_image}">
   <meta property="og:image:width" content="1280">
   <meta property="og:image:height" content="720">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{seo_title}">
   <meta name="twitter:description" content="{seo_desc}">
-  <meta name="twitter:image" content="https://carreset.kr/images/{og_image}">
+  <meta name="twitter:image" content="https://www.special.carreset.kr/images/{og_image}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700;900&display=swap">
-  <link rel="stylesheet" href="../css/style.css?v=17">
+  <link rel="stylesheet" href="../css/style.css?v=18">
   <link rel="icon" href="../images/favicon.ico">
   <script type="application/ld+json">
   {json_ld}
@@ -601,8 +601,8 @@ TEMPLATE = """<!DOCTYPE html>
     </article>
   </div>
   <div data-layout="footer"></div>
-  <script src="../js/layout.js?v=17"></script>
-  <script src="../js/main.js?v=17"></script>
+  <script src="../js/layout.js?v=18"></script>
+  <script src="../js/main.js?v=18"></script>
 </body>
 </html>
 """
@@ -673,7 +673,7 @@ RELATED_BY_PAGE = {
 SEO = {
     "keepsake/index.html": {
         "h1": "유품정리",
-        "seo_title": "유품정리 · 고인유품정리 · 고독사 유품정리 | 카리셋",
+        "seo_title": "유품정리 · 고인유품정리 · 고독사 유품정리 | 카리셋 특수",
         "seo_desc": "카리셋 유품정리. 고인유품정리, 고독사 유품정리, 요양병원입소 집정리, 유품 보관과 인수인계를 전국 상담합니다. 010-4393-2414",
         "keywords": "유품정리, 고인유품정리, 고독사 유품정리, 카리셋, 집정리",
         "seo_line": "카리셋 유품정리는 고인유품정리, 고독사 유품정리, 무연고 유품, 요양병원입소 집정리를 유가족 요청 범위에 맞춰 진행합니다.",
@@ -685,14 +685,14 @@ SEO = {
     },
     "keepsake/deceased.html": {
         "h1": "고인유품정리",
-        "seo_title": "고인유품정리 | 카리셋 유품정리",
+        "seo_title": "고인유품정리 | 카리셋 특수",
         "seo_desc": "카리셋 고인유품정리. 유가족 의뢰에 맞춰 고인 유품을 분류하고 정리합니다. 전국 상담 010-4393-2414",
         "keywords": "고인유품정리, 유품정리, 카리셋",
         "seo_line": "카리셋 고인유품정리는 남길 유품과 정리할 물건을 구분해, 유가족이 보시기에 부담스러운 공간을 대신 정리합니다.",
     },
     "keepsake/lonely.html": {
         "h1": "고독사 유품정리",
-        "seo_title": "고독사 유품정리 | 카리셋",
+        "seo_title": "고독사 유품정리 | 카리셋 특수",
         "seo_desc": "카리셋 고독사 유품정리. 발견이 늦어진 현장의 유품 분류와 특수청소를 함께 진행합니다. 010-4393-2414",
         "keywords": "고독사 유품정리, 고독사청소, 유품정리, 카리셋",
         "seo_line": "카리셋 고독사 유품정리는 오염 유품과 보관 유품을 나눈 뒤, 필요하면 고독사 특수청소와 고독사 차량 특수청소까지 연계합니다.",
@@ -715,7 +715,7 @@ SEO = {
     },
     "cleaning/index.html": {
         "h1": "특수청소",
-        "seo_title": "특수청소 · 고독사청소 · 쓰레기집 청소 | 카리셋",
+        "seo_title": "특수청소 · 고독사청소 · 쓰레기집 청소 | 카리셋 특수",
         "seo_desc": "카리셋 특수청소. 고독사 특수청소, 극단적 선택, 변사사건, 쓰레기집 청소, 악취제거, 살균소독을 전국 상담합니다. 010-4393-2414",
         "keywords": "특수청소, 고독사청소, 고독사 특수청소, 쓰레기집 청소, 카리셋",
         "seo_line": "카리셋 특수청소는 고독사 특수청소, 극단적 선택 현장, 변사사건, 강력범죄 현장, 쓰레기집 청소의 오염 제거와 살균·탈취를 진행합니다.",
@@ -723,14 +723,14 @@ SEO = {
     },
     "cleaning/lonely.html": {
         "h1": "고독사 특수청소",
-        "seo_title": "고독사 특수청소 · 고독사청소 | 카리셋",
+        "seo_title": "고독사 특수청소 · 고독사청소 | 카리셋 특수",
         "seo_desc": "카리셋 고독사 특수청소. 발견이 늦어진 현장의 오염 제거, 악취제거, 살균소독을 진행합니다. 010-4393-2414",
         "keywords": "고독사 특수청소, 고독사청소, 특수청소, 카리셋",
         "seo_line": "카리셋 고독사 특수청소는 바닥·벽·가구에 스며든 오염과 악취를 제거하고, 고독사 유품정리와 고독사 차량 특수청소가 필요하면 함께 안내합니다.",
     },
     "cleaning/suicide.html": {
         "h1": "극단적 선택 특수청소",
-        "seo_title": "극단적 선택 특수청소 · 자살현장 청소 | 카리셋",
+        "seo_title": "극단적 선택 특수청소 · 자살현장 청소 | 카리셋 특수",
         "seo_desc": "카리셋 극단적 선택 특수청소. 주거와 차량 오염 제거, 악취탈취를 전국 24시간 상담합니다. 010-4393-2414",
         "keywords": "극단적 선택 특수청소, 자살현장 청소, 특수청소, 카리셋",
         "seo_line": "카리셋은 극단적 선택 특수청소와 자살차량 특수청소를 구분해, 유가족이 보시지 않아도 되는 처리를 대신합니다.",
@@ -747,7 +747,7 @@ SEO = {
     },
     "cleaning/hoarding.html": {
         "h1": "쓰레기집 청소",
-        "seo_title": "쓰레기집 청소 | 카리셋 특수청소",
+        "seo_title": "쓰레기집 청소 | 카리셋 특수",
         "seo_desc": "카리셋 쓰레기집 청소. 적치물 반출, 악취·해충 처리, 살균소독까지 진행합니다. 010-4393-2414",
         "keywords": "쓰레기집 청소, 쓰레기집, 특수청소, 카리셋",
         "seo_line": "카리셋 쓰레기집 청소는 폐기물 반출만으로 끝내지 않고 바닥·벽면·배수·해충·악취까지 처리해 공간이 다시 쓰일 수 있게 합니다.",
@@ -772,7 +772,7 @@ SEO = {
     },
     "vehicle/index.html": {
         "h1": "사망자차량 특수청소",
-        "seo_title": "사망자차량 특수청소 · 자살차량 · 상속차량 보관 | 카리셋",
+        "seo_title": "사망자차량 특수청소 · 자살차량 · 상속차량 보관 | 카리셋 특수",
         "seo_desc": "카리셋 사망자차량 처리. 자살차량 특수청소, 고독사 차량, 번개탄 탈취, 상속차량 보관, 폐차 말소를 전국 24시간 상담합니다. 010-4393-2414",
         "keywords": "사망자차량, 자살차량 특수청소, 상속차량 보관, 고인명의 폐차, 카리셋",
         "seo_line": "카리셋 사망자차량 서비스는 자살차량 특수청소, 고독사 차량 특수청소, 견인, 상속차량 보관, 고인명의 폐차 말소를 한 흐름으로 진행합니다.",
@@ -788,7 +788,7 @@ SEO = {
     },
     "vehicle/lonely.html": {
         "h1": "고독사 차량 특수청소",
-        "seo_title": "고독사 차량 특수청소 · 악취제거 | 카리셋",
+        "seo_title": "고독사 차량 특수청소 · 악취제거 | 카리셋 특수",
         "seo_desc": "카리셋 고독사 차량 특수청소. 발견이 늦어진 차량의 오염 제거와 악취탈취, 보관·폐차를 상담합니다. 010-4393-2414",
         "keywords": "고독사 차량, 고독사 차량 특수청소, 차량 악취제거, 카리셋",
         "seo_line": "카리셋 고독사 차량 특수청소는 시트와 내장재 깊숙이 밴 오염·악취를 제거하고, 복원 또는 폐차 방향을 함께 상담합니다.",
@@ -796,7 +796,7 @@ SEO = {
     },
     "vehicle/charcoal.html": {
         "h1": "번개탄 차량 탈취",
-        "seo_title": "번개탄 차량 탈취 · 냄새제거 | 카리셋",
+        "seo_title": "번개탄 차량 탈취 · 냄새제거 | 카리셋 특수",
         "seo_desc": "카리셋 번개탄 차량 탈취. 그을음과 악취, 공조라인 오염을 제거하고 실내 탈취를 진행합니다. 010-4393-2414",
         "keywords": "번개탄 차량, 번개탄 탈취, 차량 냄새제거, 카리셋",
         "seo_line": "카리셋 번개탄 차량 탈취는 천장·송풍구·시트에 남은 그을음과 냄새를 공조라인 세척과 연무 탈취로 처리합니다.",
@@ -804,7 +804,7 @@ SEO = {
     },
     "vehicle/storage.html": {
         "h1": "상속차량 보관",
-        "seo_title": "상속차량 보관 · 고인명의 자동차 보관 | 카리셋",
+        "seo_title": "상속차량 보관 · 고인명의 자동차 보관 | 카리셋 특수",
         "seo_desc": "카리셋 상속차량 보관. 한정승인·상속포기 결정 전 고인 명의 차량을 안전하게 보관합니다. 010-4393-2414",
         "keywords": "상속차량 보관, 상속자동차 보관, 고인명의 차량 보관, 카리셋",
         "seo_line": "카리셋 상속차량 보관은 단순승인·한정승인·상속포기 결정 전, 고인 명의 자동차를 이동·보관한 뒤 폐차 말소 방향을 안내합니다.",
@@ -812,7 +812,7 @@ SEO = {
     },
     "vehicle/scrap.html": {
         "h1": "고인명의 폐차 말소",
-        "seo_title": "고인명의 폐차 말소 · 사망자 차량 폐차 | 카리셋",
+        "seo_title": "고인명의 폐차 말소 · 사망자 차량 폐차 | 카리셋 특수",
         "seo_desc": "카리셋 고인명의 폐차 말소 대행. 폐차 거부 차량, 서류·저당 확인부터 말소 등록까지 상담합니다. 010-4393-2414",
         "keywords": "고인명의 폐차, 사망자 차량 폐차, 말소 대행, 카리셋",
         "seo_line": "카리셋 고인명의 폐차 말소는 오염으로 폐차가 거부된 차량도 이동·특수청소 후 말소 절차를 안내합니다.",
@@ -820,7 +820,7 @@ SEO = {
     },
     "vehicle/tow.html": {
         "h1": "자살차량 견인",
-        "seo_title": "자살차량 견인 · 사망자차량 이동 | 카리셋",
+        "seo_title": "자살차량 견인 · 사망자차량 이동 | 카리셋 특수",
         "seo_desc": "카리셋 전국 자살차량 견인·이동. 일반 견인이 어려운 오염 차량도 출동해 보관·특수청소 장소로 옮깁니다. 010-4393-2414",
         "keywords": "자살차량 견인, 사망자차량 견인, 차량 이동, 카리셋",
         "seo_line": "카리셋 자살차량 견인은 고독사 차량 등 일반 견인이 거부되는 차량을 안전하게 이동한 뒤 특수청소와 보관을 이어갑니다.",
@@ -828,7 +828,7 @@ SEO = {
     },
     "vehicle/odor.html": {
         "h1": "차량 악취제거",
-        "seo_title": "차량 악취제거 · 특수 오염 제거 | 카리셋",
+        "seo_title": "차량 악취제거 · 특수 오염 제거 | 카리셋 특수",
         "seo_desc": "카리셋 차량 악취제거. 시트·내장재·공조까지 스며든 냄새와 오염의 원인을 제거합니다. 010-4393-2414",
         "keywords": "차량 악취제거, 차량 냄새제거, 차량 특수청소, 카리셋",
         "seo_line": "카리셋 차량 악취제거는 자살차량·고독사 차량·번개탄 차량처럼 일반 세차로 없어지지 않는 냄새를 원인부터 처리합니다.",
@@ -875,7 +875,7 @@ def seo_for(item: dict) -> dict:
     lead = item["lead"]
     return {
         "h1": extra.get("h1", title),
-        "seo_title": extra.get("seo_title", f"{title} | 카리셋"),
+        "seo_title": extra.get("seo_title", f"{title} | 카리셋 특수"),
         "seo_desc": extra.get(
             "seo_desc",
             f"카리셋 {title}. {lead} 전국 24시간 상담 010-4393-2414.",
@@ -903,13 +903,13 @@ def json_ld(item: dict, seo: dict) -> str:
                     "@type": "LocalBusiness",
                     "name": "카리셋 CARRESET",
                     "telephone": "+82-10-4393-2414",
-                    "url": "https://carreset.kr/",
+                    "url": "https://www.special.carreset.kr/",
                 },
                 "areaServed": "KR",
-                "url": f"https://carreset.kr/{item['page']}",
+                "url": f"https://www.special.carreset.kr/{item['page']}",
                 "image": {
                     "@type": "ImageObject",
-                    "url": f"https://carreset.kr/images/{seo['og_image']}",
+                    "url": f"https://www.special.carreset.kr/images/{seo['og_image']}",
                     "width": 1280,
                     "height": 720,
                 },
@@ -922,19 +922,19 @@ def json_ld(item: dict, seo: dict) -> str:
                         "@type": "ListItem",
                         "position": 1,
                         "name": "홈",
-                        "item": "https://carreset.kr/",
+                        "item": "https://www.special.carreset.kr/",
                     },
                     {
                         "@type": "ListItem",
                         "position": 2,
                         "name": LABELS[section],
-                        "item": f"https://carreset.kr/{section}/index.html",
+                        "item": f"https://www.special.carreset.kr/{section}/index.html",
                     },
                     {
                         "@type": "ListItem",
                         "position": 3,
                         "name": seo["h1"],
-                        "item": f"https://carreset.kr/{item['page']}",
+                        "item": f"https://www.special.carreset.kr/{item['page']}",
                     },
                 ],
             },

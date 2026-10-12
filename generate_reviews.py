@@ -97,23 +97,23 @@ LIST_TEMPLATE = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>차량 작업후기 | 카리셋 자살차량 특수청소</title>
+  <title>차량 작업후기 | 카리셋 특수</title>
   <meta name="description" content="카리셋 차량 작업후기. 자살차량 특수청소, 고독사 차량, 번개탄 탈취, 견인, 상속차량 보관, 폐차 말소 사례를 공개합니다. 010-4393-2414">
   <meta name="keywords" content="차량 작업후기, 자살차량 특수청소 후기, 고독사 차량, 번개탄 탈취, 카리셋">
   <meta name="author" content="카리셋 CARRESET">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://carreset.kr/reviews/index.html">
+  <link rel="canonical" href="https://www.special.carreset.kr/reviews/index.html">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ko_KR">
-  <meta property="og:site_name" content="카리셋 CARRESET">
-  <meta property="og:title" content="차량 작업후기 | 카리셋">
+  <meta property="og:site_name" content="카리셋 특수">
+  <meta property="og:title" content="차량 작업후기 | 카리셋 특수">
   <meta property="og:description" content="자살차량 특수청소, 고독사 차량, 번개탄 탈취, 상속차량 보관 작업 사례">
-  <meta property="og:url" content="https://carreset.kr/reviews/index.html">
-  <meta property="og:image" content="https://carreset.kr/images/schema-vehicle.jpg">
+  <meta property="og:url" content="https://www.special.carreset.kr/reviews/index.html">
+  <meta property="og:image" content="https://www.special.carreset.kr/images/schema-vehicle.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700;900&display=swap">
-  <link rel="stylesheet" href="../css/style.css?v=17">
+  <link rel="stylesheet" href="../css/style.css?v=18">
   <link rel="icon" href="../images/favicon.ico">
   <script type="application/ld+json">
   {list_schema}
@@ -151,8 +151,8 @@ LIST_TEMPLATE = """<!DOCTYPE html>
     </article>
   </div>
   <div data-layout="footer"></div>
-  <script src="../js/layout.js?v=17"></script>
-  <script src="../js/main.js?v=17"></script>
+  <script src="../js/layout.js?v=18"></script>
+  <script src="../js/main.js?v=18"></script>
 </body>
 </html>
 """
@@ -162,23 +162,23 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{title} | 카리셋 작업후기</title>
+  <title>{title} | 카리셋 특수 작업후기</title>
   <meta name="description" content="{excerpt} 카리셋 차량 작업후기. 010-4393-2414">
   <meta name="keywords" content="{service}, 차량 작업후기, 카리셋">
   <meta name="author" content="카리셋 CARRESET">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://carreset.kr/reviews/{id}.html">
+  <link rel="canonical" href="https://www.special.carreset.kr/reviews/{id}.html">
   <meta property="og:type" content="article">
   <meta property="og:locale" content="ko_KR">
-  <meta property="og:site_name" content="카리셋 CARRESET">
-  <meta property="og:title" content="{title} | 카리셋">
+  <meta property="og:site_name" content="카리셋 특수">
+  <meta property="og:title" content="{title} | 카리셋 특수">
   <meta property="og:description" content="{excerpt}">
-  <meta property="og:url" content="https://carreset.kr/reviews/{id}.html">
-  <meta property="og:image" content="https://carreset.kr/images/{image}">
+  <meta property="og:url" content="https://www.special.carreset.kr/reviews/{id}.html">
+  <meta property="og:image" content="https://www.special.carreset.kr/images/{image}">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700;900&display=swap">
-  <link rel="stylesheet" href="../css/style.css?v=17">
+  <link rel="stylesheet" href="../css/style.css?v=18">
   <link rel="icon" href="../images/favicon.ico">
   <script type="application/ld+json">
   {json_ld}
@@ -219,8 +219,8 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
     </article>
   </div>
   <div data-layout="footer"></div>
-  <script src="../js/layout.js?v=17"></script>
-  <script src="../js/main.js?v=17"></script>
+  <script src="../js/layout.js?v=18"></script>
+  <script src="../js/main.js?v=18"></script>
 </body>
 </html>
 """
@@ -247,14 +247,14 @@ def main() -> None:
             "@context": "https://schema.org",
             "@type": "CollectionPage",
             "name": "카리셋 차량 작업후기",
-            "url": "https://carreset.kr/reviews/index.html",
+            "url": "https://www.special.carreset.kr/reviews/index.html",
             "mainEntity": {
                 "@type": "ItemList",
                 "itemListElement": [
                     {
                         "@type": "ListItem",
                         "position": i + 1,
-                        "url": "https://carreset.kr/reviews/" + item["id"] + ".html",
+                        "url": "https://www.special.carreset.kr/reviews/" + item["id"] + ".html",
                         "name": item["title"],
                     }
                     for i, item in enumerate(REVIEWS)
@@ -284,18 +284,18 @@ def main() -> None:
                 "datePublished": item["date"],
                 "dateModified": item["date"],
                 "description": item["excerpt"],
-                "image": "https://carreset.kr/images/" + item["image"],
+                "image": "https://www.special.carreset.kr/images/" + item["image"],
                 "author": {
                     "@type": "Organization",
                     "name": "카리셋 CARRESET",
-                    "url": "https://carreset.kr/",
+                    "url": "https://www.special.carreset.kr/",
                 },
                 "publisher": {
                     "@type": "Organization",
                     "name": "카리셋 CARRESET",
-                    "url": "https://carreset.kr/",
+                    "url": "https://www.special.carreset.kr/",
                 },
-                "mainEntityOfPage": "https://carreset.kr/reviews/" + item["id"] + ".html",
+                "mainEntityOfPage": "https://www.special.carreset.kr/reviews/" + item["id"] + ".html",
             },
             ensure_ascii=False,
         )

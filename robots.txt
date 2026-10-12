@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://carreset.kr/sitemap.xml
+Sitemap: https://www.special.carreset.kr/sitemap.xml
