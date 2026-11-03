@@ -545,7 +545,9 @@ TEMPLATE = """<!DOCTYPE html>
   <meta name="description" content="{seo_desc}">
   <meta name="keywords" content="{keywords}">
   <meta name="author" content="카리셋 CARRESET">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="noindex, follow">
+  <meta name="googlebot" content="noindex, follow">
+  <meta name="Yeti" content="noindex, follow">
   <link rel="canonical" href="https://www.special.carreset.kr/{page}">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ko_KR">

@@ -101,7 +101,9 @@ LIST_TEMPLATE = """<!DOCTYPE html>
   <meta name="description" content="카리셋 차량 작업후기. 자살차량 특수청소, 고독사 차량, 번개탄 탈취, 견인, 상속차량 보관, 폐차 말소 사례를 공개합니다. 010-4393-2414">
   <meta name="keywords" content="차량 작업후기, 자살차량 특수청소 후기, 고독사 차량, 번개탄 탈취, 카리셋">
   <meta name="author" content="카리셋 CARRESET">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="noindex, follow">
+  <meta name="googlebot" content="noindex, follow">
+  <meta name="Yeti" content="noindex, follow">
   <link rel="canonical" href="https://www.special.carreset.kr/reviews/index.html">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ko_KR">
@@ -166,7 +168,9 @@ DETAIL_TEMPLATE = """<!DOCTYPE html>
   <meta name="description" content="{excerpt} 카리셋 차량 작업후기. 010-4393-2414">
   <meta name="keywords" content="{service}, 차량 작업후기, 카리셋">
   <meta name="author" content="카리셋 CARRESET">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="noindex, follow">
+  <meta name="googlebot" content="noindex, follow">
+  <meta name="Yeti" content="noindex, follow">
   <link rel="canonical" href="https://www.special.carreset.kr/reviews/{id}.html">
   <meta property="og:type" content="article">
   <meta property="og:locale" content="ko_KR">
