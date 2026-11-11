@@ -5,64 +5,6 @@
 
   const MENU = [
     {
-      id: "keepsake",
-      label: "유품정리",
-      href: "keepsake/index.html",
-      groups: [
-        {
-          title: "서비스 안내",
-          items: [
-            { label: "유품정리의 이해", href: "keepsake/understanding.html" },
-            { label: "고인유품정리", href: "keepsake/deceased.html" },
-            { label: "고독사 유품정리", href: "keepsake/lonely.html" },
-            { label: "무연고 유품정리", href: "keepsake/unclaimed.html" },
-            { label: "요양병원입소 집정리", href: "keepsake/hospital.html" },
-          ],
-        },
-        {
-          title: "보관 · 인수",
-          items: [
-            { label: "유품 보관", href: "keepsake/storage.html" },
-            { label: "유품 인수인계", href: "keepsake/handover.html" },
-          ],
-        },
-        {
-          title: "접수",
-          items: [{ label: "유품정리 서비스 접수", href: "index.html#inquiry" }],
-        },
-      ],
-    },
-    {
-      id: "cleaning",
-      label: "특수청소",
-      href: "cleaning/index.html",
-      groups: [
-        {
-          title: "현장 유형",
-          items: [
-            { label: "고독사 특수청소", href: "cleaning/lonely.html" },
-            { label: "극단적 선택 특수청소", href: "cleaning/suicide.html" },
-            { label: "변사사건 특수청소", href: "cleaning/unattended.html" },
-            { label: "강력범죄 현장 특수청소", href: "cleaning/crime.html" },
-            { label: "쓰레기집 청소", href: "cleaning/hoarding.html" },
-          ],
-        },
-        {
-          title: "복원 · 분쟁",
-          items: [
-            { label: "악취제거 · 오염제거", href: "cleaning/odor.html" },
-            { label: "살균 소독", href: "cleaning/disinfect.html" },
-            { label: "비전문업체 피해 복원", href: "cleaning/restore.html" },
-            { label: "유가족 / 임대인 분쟁", href: "cleaning/dispute.html" },
-          ],
-        },
-        {
-          title: "접수",
-          items: [{ label: "특수청소 서비스 접수", href: "index.html#inquiry" }],
-        },
-      ],
-    },
-    {
       id: "vehicle",
       label: "사망자차량",
       href: "vehicle/index.html",
@@ -118,6 +60,64 @@
         {
           title: "접수",
           items: [{ label: "후기 등록 문의", href: "index.html#inquiry" }],
+        },
+      ],
+    },
+    {
+      id: "keepsake",
+      label: "유품정리",
+      href: "keepsake/index.html",
+      groups: [
+        {
+          title: "서비스 안내",
+          items: [
+            { label: "유품정리의 이해", href: "keepsake/understanding.html" },
+            { label: "고인유품정리", href: "keepsake/deceased.html" },
+            { label: "고독사 유품정리", href: "keepsake/lonely.html" },
+            { label: "무연고 유품정리", href: "keepsake/unclaimed.html" },
+            { label: "요양병원입소 집정리", href: "keepsake/hospital.html" },
+          ],
+        },
+        {
+          title: "보관 · 인수",
+          items: [
+            { label: "유품 보관", href: "keepsake/storage.html" },
+            { label: "유품 인수인계", href: "keepsake/handover.html" },
+          ],
+        },
+        {
+          title: "접수",
+          items: [{ label: "유품정리 서비스 접수", href: "index.html#inquiry" }],
+        },
+      ],
+    },
+    {
+      id: "cleaning",
+      label: "특수청소",
+      href: "cleaning/index.html",
+      groups: [
+        {
+          title: "현장 유형",
+          items: [
+            { label: "고독사 특수청소", href: "cleaning/lonely.html" },
+            { label: "극단적 선택 특수청소", href: "cleaning/suicide.html" },
+            { label: "변사사건 특수청소", href: "cleaning/unattended.html" },
+            { label: "강력범죄 현장 특수청소", href: "cleaning/crime.html" },
+            { label: "쓰레기집 청소", href: "cleaning/hoarding.html" },
+          ],
+        },
+        {
+          title: "복원 · 분쟁",
+          items: [
+            { label: "악취제거 · 오염제거", href: "cleaning/odor.html" },
+            { label: "살균 소독", href: "cleaning/disinfect.html" },
+            { label: "비전문업체 피해 복원", href: "cleaning/restore.html" },
+            { label: "유가족 / 임대인 분쟁", href: "cleaning/dispute.html" },
+          ],
+        },
+        {
+          title: "접수",
+          items: [{ label: "특수청소 서비스 접수", href: "index.html#inquiry" }],
         },
       ],
     },
@@ -203,7 +203,7 @@
                 <span class="logo-bar" aria-hidden="true"></span>
                 <span class="logo-en">CARRESET</span>
               </a>
-              <p>카리셋 자살차량 특수청소 · 고독사 차량 · 번개탄 탈취 · 상속차량 보관 · 폐차말소 · 유품정리</p>
+              <p>카리셋 차량 특수청소 전용 · 자살차량 · 고독사 차량 · 번개탄 탈취 · 상속차량 보관 · 폐차말소</p>
             </div>
             <div>
               <p>24시간 상담</p>
@@ -211,28 +211,21 @@
             </div>
           </div>
           <p class="footer-copy">
-            상호 : 카리셋 / 대표 : 입력 예정 / 사업자등록번호 : 입력 예정<br>
-            주소 : 입력 예정 / 이메일 : 입력 예정 / 개인정보보호책임자 : 입력 예정<br>
-            대표번호 : ${TEL_VIEW}<br>
-            본 사이트는 카리셋 특수청소 전용 페이지입니다. <a href="https://carreset.kr/">카리셋 본 사이트</a><br>
+            상호 : 카리셋 / 대표번호 : ${TEL_VIEW}<br>
+            대표, 사업자등록번호, 주소, 이메일, 개인정보보호책임자는 확인되는 대로 표시합니다.<br>
+            본 사이트는 카리셋 차량 특수청소 전용입니다. 종합 안내는 <a href="https://carreset.kr/">carreset.kr</a><br>
             © 2026 CARRESET. All rights reserved.
           </p>
           <nav class="footer-keywords" aria-label="주요 키워드">
-            <a href="${url("reviews/index.html")}">차량 작업후기</a>
             <a href="${url("vehicle/suicide.html")}">자살차량 특수청소</a>
-            <a href="${url("vehicle/suicide.html")}">자살차량청소</a>
             <a href="${url("vehicle/lonely.html")}">고독사 차량 특수청소</a>
             <a href="${url("vehicle/charcoal.html")}">번개탄 차량 탈취</a>
-            <a href="${url("vehicle/odor.html")}">차량 악취제거</a>
             <a href="${url("vehicle/tow.html")}">자살차량 견인</a>
             <a href="${url("vehicle/storage.html")}">상속차량 보관</a>
             <a href="${url("vehicle/scrap.html")}">고인명의 폐차 말소</a>
-            <a href="${url("keepsake/index.html")}">유품정리</a>
-            <a href="${url("keepsake/deceased.html")}">고인유품정리</a>
-            <a href="${url("keepsake/lonely.html")}">고독사 유품정리</a>
-            <a href="${url("cleaning/index.html")}">특수청소</a>
-            <a href="${url("cleaning/lonely.html")}">고독사 특수청소</a>
-            <a href="${url("cleaning/hoarding.html")}">쓰레기집 청소</a>
+            <a href="${url("reviews/index.html")}">차량 작업후기</a>
+            <a href="${url("keepsake/index.html")}">유품정리(연계)</a>
+            <a href="${url("cleaning/index.html")}">주거 특수청소(연계)</a>
           </nav>
         </div>
       </footer>

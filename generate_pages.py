@@ -346,6 +346,24 @@ PAGES = [
             "자살차량 견인 · 이동",
             "악취제거, 보관, 폐차 말소 상담",
         ],
+        "faq": [
+            (
+                "일반 세차로 자살차량 특수청소가 되나요?",
+                "시트 폼, 바닥, 트림, 공조까지 스며든 오염은 세차나 방향제로는 다시 올라옵니다. 카리셋은 오염 부위를 확인하고 분해 세척·탈취를 진행합니다.",
+            ),
+            (
+                "견인이 거부된 차량도 옮길 수 있나요?",
+                "일반 견인이 어려운 경우 현장 상태를 듣고 자살차량 견인으로 작업장까지 이동하는 방법을 안내합니다.",
+            ),
+            (
+                "작업 후 다시 탈 수 있나요?",
+                "오염 깊이와 내장재 손상에 따라 복원 인도와 폐차 말소가 갈립니다. 사진 또는 현장 확인 후 안내합니다.",
+            ),
+            (
+                "작업 사진은 공개되나요?",
+                "유가족 성함·얼굴·차량번호는 올리지 않습니다. 작업 사진을 주시면 번호판을 가린 뒤 차량 작업후기에 올릴 수 있습니다.",
+            ),
+        ],
     },
     {
         "section": "vehicle",
@@ -363,6 +381,20 @@ PAGES = [
             "시트 · 내장재 분해 세척 또는 교체 상담",
             "복원 가능 여부에 따른 보관 · 폐차 안내",
         ],
+        "faq": [
+            (
+                "고독사 차량과 자살차량 특수청소는 무엇이 다른가요?",
+                "고독사 차량은 발견이 늦어 오염이 더 깊은 경우가 많습니다. 복원보다 폐차 말소가 맞는지도 함께 봅니다.",
+            ),
+            (
+                "냄새만 빼면 다시 탈 수 있나요?",
+                "표면 냄새만 가리면 재발하는 경우가 많습니다. 시트·내장재 안쪽까지 확인한 뒤 복원 또는 처분을 안내합니다.",
+            ),
+            (
+                "주거 고독사 특수청소도 같이 맡길 수 있나요?",
+                "가능합니다. 이 페이지는 차량 작업이 중심이고, 주거 현장은 고독사 특수청소·유품정리로 연계합니다.",
+            ),
+        ],
     },
     {
         "section": "vehicle",
@@ -379,6 +411,20 @@ PAGES = [
             "그을음 · 악취 범위 확인",
             "공조라인 세척 및 필터 교체",
             "오존 탈취와 실내 복원",
+        ],
+        "faq": [
+            (
+                "번개탄 차량은 왜 세차로 안 되나요?",
+                "연소 잔여물이 천장, 송풍구, 시트, 공조 안쪽까지 스며듭니다. 표면만 닦으면 에어컨을 켤 때 냄새가 다시 납니다.",
+            ),
+            (
+                "공조라인까지 세척해야 하나요?",
+                "송풍구와 필터만 바꿔도 라인 안에 남은 냄새가 재발할 수 있습니다. 범위 확인 후 공조라인 세척을 안내합니다.",
+            ),
+            (
+                "청소 후 폐차해야 할 수도 있나요?",
+                "그을음과 냄새가 내장재 깊숙이 밴 경우에는 복원보다 폐차 말소가 맞을 수 있습니다. 현장 확인 후 설명합니다.",
+            ),
         ],
     },
     {
@@ -448,6 +494,20 @@ PAGES = [
             "오염 차량의 이동 후 보관",
             "보관 중 폐차 · 말소 · 매각 방향 상담",
         ],
+        "faq": [
+            (
+                "상속 방향을 정하기 전에도 맡길 수 있나요?",
+                "가능합니다. 한정승인·상속포기 결정 전까지 고인 명의 차량이 방치되지 않도록 이동·보관합니다.",
+            ),
+            (
+                "보관 중에 처분해도 되나요?",
+                "상속 방향이 정해지기 전 함부로 명의 변경이나 처분을 하면 문제가 생길 수 있습니다. 카리셋은 법률 판단을 대신하지 않고, 보관과 가능한 다음 절차만 안내합니다.",
+            ),
+            (
+                "특수청소나 폐차 말소도 이어서 하나요?",
+                "보관 중 오염 처리가 필요하거나 결정 후 폐차 말소가 필요하면 같은 흐름으로 안내합니다.",
+            ),
+        ],
     },
     {
         "section": "vehicle",
@@ -464,6 +524,20 @@ PAGES = [
             "폐차 가능 여부 확인",
             "필요 서류 안내",
             "말소 등록 대행 상담",
+        ],
+        "faq": [
+            (
+                "오염 때문에 폐차가 거부된 차량도 되나요?",
+                "이동과 특수청소 뒤에 폐차 가능 여부를 다시 확인합니다. 거부된 상태 그대로 두지 않고 순서를 안내합니다.",
+            ),
+            (
+                "할부·저당이 남아 있어도 말소할 수 있나요?",
+                "금융·저당 여부에 따라 필요한 확인이 달라집니다. 법률 대리는 하지 않고, 확인 사항과 진행 순서를 안내합니다.",
+            ),
+            (
+                "어떤 서류가 필요하나요?",
+                "사망 관계 서류, 상속 진행 여부, 차량등록증 등 상황에 따라 다릅니다. 상담 때 현재 가진 서류부터 확인합니다.",
+            ),
         ],
     },
     {
@@ -564,7 +638,7 @@ TEMPLATE = """<!DOCTYPE html>
   <meta name="twitter:image" content="https://www.special.carreset.kr/images/{og_image}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700;900&display=swap">
-  <link rel="stylesheet" href="../css/style.css?v=20">
+  <link rel="stylesheet" href="../css/style.css?v=21">
   <link rel="icon" href="../images/favicon.ico">
   <script type="application/ld+json">
   {json_ld}
@@ -588,6 +662,7 @@ TEMPLATE = """<!DOCTYPE html>
       <ul>
         {bullets}
       </ul>
+      {faq_html}
       <nav class="related-keywords" aria-label="관련 키워드">
         <h3>함께 찾는 키워드</h3>
         {related}
@@ -603,8 +678,8 @@ TEMPLATE = """<!DOCTYPE html>
     </article>
   </div>
   <div data-layout="footer"></div>
-  <script src="../js/layout.js?v=20"></script>
-  <script src="../js/main.js?v=20"></script>
+  <script src="../js/layout.js?v=21"></script>
+  <script src="../js/main.js?v=21"></script>
 </body>
 </html>
 """
@@ -861,6 +936,19 @@ SEO = {
 }
 
 
+def faq_html(item: dict) -> str:
+    faqs = item.get("faq") or []
+    if not faqs:
+        return ""
+    parts = ['<section class="page-faq"><h3>이 작업에서 자주 묻는 질문</h3>']
+    for question, answer in faqs:
+        parts.append(
+            f'<article class="faq-item"><button type="button">{question}<span>+</span></button><p>{answer}</p></article>'
+        )
+    parts.append("</section>")
+    return "\n      ".join(parts)
+
+
 def related_html(page: str) -> str:
     items = list(RELATED_BY_PAGE.get(page, RELATED_DEFAULT))
     items.append(("카리셋 본 사이트", "https://carreset.kr/"))
@@ -897,53 +985,66 @@ def json_ld(item: dict, seo: dict) -> str:
     import json
 
     section = item["section"]
-    data = {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "Service",
-                "name": seo["h1"],
-                "provider": {
-                    "@type": "LocalBusiness",
-                    "name": "카리셋 CARRESET",
-                    "telephone": "+82-10-4393-2414",
-                    "url": "https://www.special.carreset.kr/",
-                },
-                "areaServed": "KR",
-                "url": f"https://www.special.carreset.kr/{item['page']}",
-                "image": {
-                    "@type": "ImageObject",
-                    "url": f"https://www.special.carreset.kr/images/{seo['og_image']}",
-                    "width": 1280,
-                    "height": 720,
-                },
-                "description": seo["seo_desc"],
+    graph = [
+        {
+            "@type": "Service",
+            "name": seo["h1"],
+            "provider": {
+                "@type": "LocalBusiness",
+                "name": "카리셋 CARRESET",
+                "telephone": "+82-10-4393-2414",
+                "url": "https://www.special.carreset.kr/",
             },
+            "areaServed": "KR",
+            "url": f"https://www.special.carreset.kr/{item['page']}",
+            "image": {
+                "@type": "ImageObject",
+                "url": f"https://www.special.carreset.kr/images/{seo['og_image']}",
+                "width": 1280,
+                "height": 720,
+            },
+            "description": seo["seo_desc"],
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "홈",
+                    "item": "https://www.special.carreset.kr/",
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": LABELS[section],
+                    "item": f"https://www.special.carreset.kr/{section}/index.html",
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": seo["h1"],
+                    "item": f"https://www.special.carreset.kr/{item['page']}",
+                },
+            ],
+        },
+    ]
+    faqs = item.get("faq") or []
+    if faqs:
+        graph.append(
             {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
+                "@type": "FAQPage",
+                "mainEntity": [
                     {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "홈",
-                        "item": "https://www.special.carreset.kr/",
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": LABELS[section],
-                        "item": f"https://www.special.carreset.kr/{section}/index.html",
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": seo["h1"],
-                        "item": f"https://www.special.carreset.kr/{item['page']}",
-                    },
+                        "@type": "Question",
+                        "name": question,
+                        "acceptedAnswer": {"@type": "Answer", "text": answer},
+                    }
+                    for question, answer in faqs
                 ],
-            },
-        ],
-    }
+            }
+        )
+    data = {"@context": "https://schema.org", "@graph": graph}
     return json.dumps(data, ensure_ascii=False)
 
 
@@ -972,6 +1073,7 @@ def main() -> None:
             og_image=seo["og_image"],
             json_ld=json_ld(item, seo),
             related=related_html(item["page"]),
+            faq_html=faq_html(item),
         )
         (folder / item["file"]).write_text(html, encoding="utf-8")
         print("wrote", item["page"])

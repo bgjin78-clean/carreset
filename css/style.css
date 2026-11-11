@@ -877,6 +877,88 @@ body[data-section="reviews"] .page-hero {
   margin-bottom: 12px;
 }
 
+.review-facts {
+  margin: 28px 0 8px;
+  border-top: 1px solid var(--line);
+}
+
+.review-facts div {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.review-facts dt {
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.review-facts dd {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.page-faq {
+  margin: 36px 0 8px;
+}
+
+.page-faq h3 {
+  margin-bottom: 16px;
+}
+
+.linked-band {
+  padding: 18px 0 40px;
+}
+
+.linked-band .inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.linked-band p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.linked-band nav {
+  display: flex;
+  gap: 10px;
+}
+
+.linked-band a {
+  border: 1px solid var(--line);
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.pillar-tag {
+  display: inline-block;
+  margin: 0 24px 8px;
+  padding: 2px 8px;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.biz-note {
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
 .review-meta {
   display: block;
   padding: 10px 16px 0;
@@ -1621,6 +1703,12 @@ body[data-section="reviews"] .page-hero {
 
   .review-grid {
     grid-template-columns: 1fr;
+  }
+
+  .review-facts div,
+  .biz-info div {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 
   .section-intro,
